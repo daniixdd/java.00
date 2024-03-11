@@ -2,10 +2,7 @@ package co.edu.sena;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
+//5...
 public class App    
 
             {
@@ -19,10 +16,10 @@ public class App
         int B = scanner.nextInt();
 
         if (B != 0) {
-            double cociente = (double) A / B;
-            System.out.println("El cociente entre A y B es: " + cociente);
+            double cocientee = (double) A / B;
+            System.out.println("El cociente entre A y B es: " + cocientee);
         } else {
-            System.out.println("La división por cero no está definida, la división no es posible.");
+            System.out.println("La división por cero no se ha definido, la división no es posible.");
         }
 
         scanner.close();
