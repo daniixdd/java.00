@@ -2,10 +2,7 @@ package co.edu.sena;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
+//6...
 public class App 
 {
     public static void main( String[] args )
@@ -19,15 +16,15 @@ public class App
             System.out.print("Ingrese el valor de B: ");
             int B = scanner.nextInt();
     
-            int resultado;
+            int result;
     
             if (A < 0 || B < 0) {
-                resultado = A + B;
+                result = A + B;
             } else {
-                resultado = A * B;
+                result = A * B;
             }
     
-            System.out.println("El resultado es: " + resultado);
+            System.out.println("El resultado es: " + result);
     
             scanner.close();
         }
